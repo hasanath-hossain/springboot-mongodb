@@ -153,7 +153,7 @@ demodb>studentData = [{
 }]
 ```
 
-Paste the above data in powershell and run below command to insert the records into collection.
+Paste the above data in mongodb commandline and hit enter. Then run below command to insert the records into collection.
 ```shell
 demodb>db.student.insertMany(studentData)
 ```
