@@ -4,20 +4,20 @@ We have used mongodb/mongo-xpress docker image from dockerhub to run mongodb db 
 This example contains the CRUD functionality.
  
 ## REST API Details
-Create new user
+#### Create new user
 <br>POST - /mongo/students
 
-Retrieve all user
+#### Retrieve all user
 <br>GET - /mongo/students
-Retrieve user by id
+#### Retrieve user by id
 <br>GET - /mongo/students/{id}
-Retrieve user by firstName
+#### Retrieve user by firstName
 <br>GET - /mongo/students/name/{fname}
 
-Update user
+#### Update user
 <br>PUT - /mongo/students
 
-Delete user
+#### Delete user
 <br>DELETE - /mongo/students/{id}
 
 ## Maven Configuration
