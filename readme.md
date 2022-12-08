@@ -72,6 +72,7 @@ networks:
 >docker exec -it <mongodb id from previous command output>
 >mongosh mongodb://localhost:27017 –u rootuser –p rootpass
 ```
+After executing last command it will log into mongodb , now we can execute mongodb commands to insertd delete data.
 
 ### We can create a database and collections(Table) from command line
 ```shell
