@@ -8,17 +8,17 @@ This example contains the CRUD functionality.
 <br>POST - /mongo/students
 
 #### Retrieve all user
-<br>GET - /mongo/students
+GET - /mongo/students
 #### Retrieve user by id
-<br>GET - /mongo/students/{id}
+GET - /mongo/students/{id}
 #### Retrieve user by firstName
-<br>GET - /mongo/students/name/{fname}
+GET - /mongo/students/name/{fname}
 
 #### Update user
-<br>PUT - /mongo/students
+PUT - /mongo/students
 
 #### Delete user
-<br>DELETE - /mongo/students/{id}
+DELETE - /mongo/students/{id}
 
 ## Maven Configuration
 Add below springboot starter dpenedency in pom.xml
