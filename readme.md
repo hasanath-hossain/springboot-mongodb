@@ -5,18 +5,18 @@ This example contains the CRUD functionality.
  
 ## REST API Details
 #### Create new user
-<br>POST - /mongo/students
-
+POST - /mongo/students
+<br>
 #### Retrieve all user
 GET - /mongo/students
 #### Retrieve user by id
 GET - /mongo/students/{id}
 #### Retrieve user by firstName
 GET - /mongo/students/name/{fname}
-
+<br>
 #### Update user
 PUT - /mongo/students
-
+<br>
 #### Delete user
 DELETE - /mongo/students/{id}
 
