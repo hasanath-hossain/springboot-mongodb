@@ -162,6 +162,18 @@ This will create a collection named student and insert the records present in st
 We have spin up mongo xpress along with mongodb using docker compose.
 We can create a database using Mongo Express GUI also. Access mongo express by hitting http://localhost:8081. 
 
+## Properties
+Application properties required to connect mongodb from springboot app
+```properties
+#Mongo DB Config
+spring.data.mongodb.host=localhost
+spring.data.mongodb.port=27017
+spring.data.mongodb.username=rootuser
+spring.data.mongodb.password=rootpass
+spring.data.mongodb.database=demodb
+spring.data.mongodb.authentication-database=admin
+spring.data.mongodb.auto-index-creation=true
+```
 
 ## Run Apllication
 1.Run the SpringbootMongodbApplication. [port used : 8070]
